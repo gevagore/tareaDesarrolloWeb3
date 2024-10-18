@@ -1,0 +1,78 @@
+#titulo{
+    color: rgb(98, 154, 238);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+#tareas{
+    padding: 50px;
+    width: 640px;
+    text-align: center;
+    margin: auto;
+}
+
+#entradaTarea{
+    border-radius: 10px;
+    border-color: rgb(98, 154, 238);
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    
+}
+
+#botonTareas{
+    border-radius: 10px;
+    border: 0px;
+    border-color: rgb(98, 154, 238);
+    height: 50px;
+    width: 120px;
+    background-color: rgb(98, 154, 238);
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: disc; /* Mantiene los puntos de la lista */
+    padding-left: 20px; /* Asegúrate de que haya un poco de espacio a la izquierda */
+  }
+
+.listaTareas{
+    text-align: left;
+    display: flex; /* Usa flexbox para los elementos dentro de la tarea */
+    justify-content: space-between; /* Espacio entre el texto y el botón */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-bottom: 10px; /* Espaciado entre tareas */
+    padding-right: 80px;
+ 
+}
+
+.botonEliminar{
+    border-radius: 10px;
+    background-color: rgb(98, 154, 238); /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin: 5px;
+}
+
+.userInformation{
+    /*width: 350px;*/
+    text-align: center;
+    
+}
+
+.tituloUser{
+    color: rgb(98, 154, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Fuente de letra*/
+    font-size: 35px; /*Tamaño*/
+}
+
+.container h2{ /*Significa: De la clase container, edito sólo el h2*/
+    color: rgb(98, 154, 238);
+    
+}
+ 
+
